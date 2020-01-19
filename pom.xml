@@ -36,7 +36,7 @@ limitations under the License.
         <url>http://dubbo.io</url>
     </organization>
     <modules>
-        <module>hessian-lite</module>
+       <!-- <module>hessian-lite</module>
         <module>dubbo-common</module>
         <module>dubbo-container</module>
         <module>dubbo-remoting</module>
@@ -47,10 +47,10 @@ limitations under the License.
         <module>dubbo-monitor</module>
         <module>dubbo-config</module>
         <module>dubbo</module>
-        <module>dubbo-simple</module>
+        <module>dubbo-simple</module> -->
         <module>dubbo-admin</module>
-        <module>dubbo-demo</module>
-        <module>dubbo-plugin</module>
+      <!--  <module>dubbo-demo</module>
+        <module>dubbo-plugin</module> -->
     </modules>
     <profiles>
         <profile>
