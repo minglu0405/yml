@@ -74,7 +74,6 @@ limitations under the License.
                         <configuration>
                             <testFailureIgnore>true</testFailureIgnore>
                         </configuration>
-                        <defaultGoal>compile</defaultGoal>
                     </plugin>
                 </plugins>
             </build>
