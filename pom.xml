@@ -447,7 +447,6 @@ limitations under the License.
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
-                <version>3.1.0</version>
                 <configuration>
                     <archive>
                         <addMavenDescriptor>true</addMavenDescriptor>
@@ -462,7 +461,6 @@ limitations under the License.
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version> 3.0.0-M4 </ version>
                 <configuration>
                     <useSystemClassLoader>true</useSystemClassLoader>
                     <forkMode>once</forkMode>
@@ -533,7 +531,6 @@ limitations under the License.
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-deploy-plugin</artifactId>
-                <version>2.5.3</version>
                 <configuration>
                     <skip>${skip_maven_deploy}</skip>
                 </configuration>
@@ -541,7 +538,6 @@ limitations under the License.
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
-                <version> 3.8.1 </ version>
                 <configuration>
                     <fork>true</fork>
                     <source>${java_source_version}</source>
@@ -551,7 +547,6 @@ limitations under the License.
             </plugin>
             <plugin>
                 <artifactId>maven-source-plugin</artifactId>
-                <version>3.0.0</version>
                 <executions>
                     <execution>
                         <id>attach-sources</id>
